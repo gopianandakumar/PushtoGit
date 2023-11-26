@@ -9,6 +9,11 @@ import Mobile from "./components/Mobile";
 import Prc from "./components/Prc";
 import Fnc from "./components/Fnt";
 import Bcg from "./components/Bcg";
+import Lco from "./components/Lco";
+import HanEv from "./components/HanEv";
+import HanEc from "./components/HanEc";
+
+import "./App.css";
 
 function App() {
   const data = [
@@ -42,7 +47,10 @@ function App() {
     // <Mobile />
     // <Prc />
     // <Fnc />
-    <Bcg />
+    // <Bcg />
+    // <Lco />
+    // <HanEv />
+    <HanEc />
   );
 }
 
