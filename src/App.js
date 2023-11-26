@@ -15,6 +15,7 @@ import HanEc from "./components/HanEc";
 import Todo from "./components/Todo";
 import "./App.css";
 import Destrap from "./components/Destrap";
+import Twdb from "./components/Twdb";
 
 function App() {
   const data = [
@@ -74,7 +75,8 @@ function App() {
     // <> {
     //   dataq.map((i)=>(<Destrap {...i} />))
     // }</>
-    <Todo />
+    // <Todo />
+    <Twdb />
   );
 }
 
