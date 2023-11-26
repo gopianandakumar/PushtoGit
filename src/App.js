@@ -12,8 +12,9 @@ import Bcg from "./components/Bcg";
 import Lco from "./components/Lco";
 import HanEv from "./components/HanEv";
 import HanEc from "./components/HanEc";
-
+import Todo from "./components/Todo";
 import "./App.css";
+import Destrap from "./components/Destrap";
 
 function App() {
   const data = [
@@ -39,6 +40,24 @@ function App() {
   function Message() {
     return <h1>uuuuuuuuuu</h1>;
   }
+
+  let dataq = [
+    {
+      id: 1,
+      name: "gopi",
+      age: 3,
+    },
+    {
+      id: 2,
+      name: "ramesh",
+      age: 4,
+    },
+    {
+      id: 3,
+      name: "pydi",
+      age: 5,
+    },
+  ];
   return (
     // <>
     //   <button onClick={Message}>Click</button>
@@ -50,7 +69,12 @@ function App() {
     // <Bcg />
     // <Lco />
     // <HanEv />
-    <HanEc />
+    // <HanEc />
+    //  <Destrap/>
+    // <> {
+    //   dataq.map((i)=>(<Destrap {...i} />))
+    // }</>
+    <Todo />
   );
 }
 
