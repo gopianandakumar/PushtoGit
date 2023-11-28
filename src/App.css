@@ -1,5 +1,36 @@
-.list-group-item {
+.container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.output {
+  outline: none;
+  border: none;
+  width: 320px;
+  height: 70px;
+  font-size: 32px;
+  padding: 2px 3px;
+  background: #333333;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #ffff;
+}
+
+button {
+  width: 80px;
+  height: 90px;
+  font-size: 26px;
+  cursor: pointer;
+  border: none;
+  border-top: 1px solid #6666;
+  border-right: 1px solid #6666;
+}
+
+.operator {
+  border-right: none;
+  background-color: #fb9419;
+  color: #ffff;
 }

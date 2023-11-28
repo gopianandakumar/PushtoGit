@@ -16,6 +16,7 @@ import Todo from "./components/Todo";
 import "./App.css";
 import Destrap from "./components/Destrap";
 import Twdb from "./components/Twdb";
+import Calculator from "./Calculator";
 
 function App() {
   const data = [
@@ -76,7 +77,8 @@ function App() {
     //   dataq.map((i)=>(<Destrap {...i} />))
     // }</>
     // <Todo />
-    <Twdb />
+    // <Twdb />
+    <Calculator />
   );
 }
 
