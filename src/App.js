@@ -17,49 +17,50 @@ import "./App.css";
 import Destrap from "./components/Destrap";
 import Twdb from "./components/Twdb";
 import Calculator from "./Calculator";
+import TestEffect from "./components/TestEffect";
 
 function App() {
-  const data = [
-    {
-      id: 1,
-      name: "gopi",
-      age: 23,
-      city: "hyderabad",
-    },
-    {
-      id: 2,
-      name: "ravi",
-      age: 23,
-      city: "hyderabad",
-    },
-    {
-      id: 1,
-      name: "nani",
-      age: 23,
-      city: "hyderabad",
-    },
-  ];
-  function Message() {
-    return <h1>uuuuuuuuuu</h1>;
-  }
+  // const data = [
+  //   {
+  //     id: 1,
+  //     name: "gopi",
+  //     age: 23,
+  //     city: "hyderabad",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "ravi",
+  //     age: 23,
+  //     city: "hyderabad",
+  //   },
+  //   {
+  //     id: 1,
+  //     name: "nani",
+  //     age: 23,
+  //     city: "hyderabad",
+  //   },
+  // // ];
+  // function Message() {
+  //   return <h1>uuuuuuuuuu</h1>;
+  // }
 
-  let dataq = [
-    {
-      id: 1,
-      name: "gopi",
-      age: 3,
-    },
-    {
-      id: 2,
-      name: "ramesh",
-      age: 4,
-    },
-    {
-      id: 3,
-      name: "pydi",
-      age: 5,
-    },
-  ];
+  // let dataq = [
+  //   {
+  //     id: 1,
+  //     name: "gopi",
+  //     age: 3,
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "ramesh",
+  //     age: 4,
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "pydi",
+  //     age: 5,
+  //   },
+  // ];
   return (
     // <>
     //   <button onClick={Message}>Click</button>
@@ -78,7 +79,8 @@ function App() {
     // }</>
     // <Todo />
     // <Twdb />
-    <Calculator />
+    // <Calculator />
+    <TestEffect />
   );
 }
 
