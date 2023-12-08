@@ -18,6 +18,7 @@ import Destrap from "./components/Destrap";
 import Twdb from "./components/Twdb";
 import Calculator from "./Calculator";
 import TestEffect from "./components/TestEffect";
+import ProductList from "./components/ProductList";
 
 function App() {
   // const data = [
@@ -80,7 +81,8 @@ function App() {
     // <Todo />
     // <Twdb />
     // <Calculator />
-    <TestEffect />
+    // <TestEffect />
+    <ProductList/>
   );
 }
 
