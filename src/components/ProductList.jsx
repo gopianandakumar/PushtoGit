@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProductCard from "./ProductCard";
+import NewOne from "./NewOne";
 
 export default function ProductList() {
   const [product, updateProduct] = useState([]);
@@ -21,7 +21,7 @@ export default function ProductList() {
     <>
       <div className="product-list">
         {product.map((p) => (
-          <ProductCard {...p} key={p.id}></ProductCard>
+          <NewOne></NewOne>
         ))}
       </div>
     </>

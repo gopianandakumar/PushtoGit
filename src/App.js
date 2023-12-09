@@ -19,6 +19,15 @@ import Twdb from "./components/Twdb";
 import Calculator from "./Calculator";
 import TestEffect from "./components/TestEffect";
 import ProductList from "./components/ProductList";
+import ProductLP from "./components/ProductLP";
+import ImageRe from "./components/ImageRe";
+import Home from "./components/Home";
+import About from "./components/About";
+import Login from "./components/Login";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
+
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   // const data = [
@@ -82,7 +91,10 @@ function App() {
     // <Twdb />
     // <Calculator />
     // <TestEffect />
-    <ProductList/>
+    // <ProductList/>
+    // <ProductLP />
+    // <ImageRe />
+    <Header />
   );
 }
 
